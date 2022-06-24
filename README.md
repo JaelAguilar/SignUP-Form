@@ -1,2 +1,2 @@
 # SignUP-Form
-Sign-Up Form made es practice of Odin Project
+Sign-Up Form made as practice for Odin Project
