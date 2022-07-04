@@ -8,24 +8,38 @@ header{
     height:25vh;
 }
 
-h1{
-    margin:0 5vw;
-}
 
-#inputs{
-    display: flex;
-    margin:10px 5vw;
-    flex-direction: column;
-    gap:10px;
-    margin-top: 20px;
-}
 #content{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    margin:0 6vw;
 }
 
-@media only screen and (min-width:800px){
+#inputs{
+    display: flex;
+    margin:10px 0;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;
+}
+.pairInputContainer{
+    display:flex;
+    gap:10px;
+    flex-grow:1;
+    flex-direction: column;
+}
+.inputContainer{
+    width:100%;
+    flex-grow:1;
+}
+
+.inputContainer input{
+    margin-top:7px;
+    width:100%;
+}
+
+@media only screen and (min-width:850px){
     body{
         display:flex;
     }
@@ -35,16 +49,25 @@ h1{
     }
     #content{
         width:65vw;
-    }
-    .inputContainer{
-        max-width:400px;
-        margin-left:50px;
-    }
-    .inputContainer input{
-        width:100%;
+        padding-right:10vw;
     }
     #inputs{
         flex-wrap:wrap;
         flex-direction:row;
+        gap: 2vw;
+    }
+    .pairInputContainer{
+        width:auto;
+        flex-wrap:wrap;
+        gap:5vw;
+        flex-direction:row;
+    }
+    .inputContainer{
+        width:40%;
+        flex-grow:1;
+    }
+    .inputContainer input{
+        width:100%;
+        margin-top: 5px;
     }
 }
