@@ -23,12 +23,13 @@ header{
     justify-content: center;
 }
 #content > h1{
-    margin:0 6vw;
+    margin:1vh 6vw;
 }
 
 #formContainer{
     box-shadow:0 20px 30px -10px lightgray, 0 -8px 40px -35px rgb(118, 117, 117);
-    padding:0 6vw;
+    padding:5vh 6vw;
+    margin:2vh 0;
 }
 
 .sendForm{
@@ -75,6 +76,7 @@ header{
   font-weight: 700;
   line-height: 1.5;
   margin: 0;
+  margin-bottom:1vh;
   max-width: none;
   min-height: 44px;
   min-width: 85%;
