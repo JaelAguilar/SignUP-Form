@@ -31,6 +31,10 @@ header{
     padding:0 6vw;
 }
 
+.sendForm{
+    margin: 0 6vw;
+}
+
 
 /* ==== Form Layout ==== */
 #inputs{
@@ -91,9 +95,6 @@ header{
   opacity: .75;
 }
 
-.sendForm{
-    margin: 0 6vw;
-}
 
 /* Layout for bigger screens in width */
 @media only screen and (min-width:850px){
