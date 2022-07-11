@@ -1,21 +1,38 @@
+/* ==== General rules ==== */
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+h1{
+    font-size:1.5em;
+    font-weight: 500;
+
+}
+
+
+/* ==== Sections ====*/
 header{
     background: #000 center/cover url('../assets/background.jpg') no-repeat;
     width:100%;
     height:25vh;
 }
 
-
 #content{
     display:flex;
     flex-direction: column;
     justify-content: center;
+}
+#content > h1{
     margin:0 6vw;
 }
 
+#formContainer{
+    box-shadow:0 10px 20px gray;
+    padding:0 6vw;
+}
+
+
+/* ==== Form Layout ==== */
 #inputs{
     display: flex;
     margin:10px 0;
@@ -39,18 +56,25 @@ header{
     width:100%;
 }
 
+/* Layout for smaller screens in width */
 @media only screen and (min-width:850px){
     body{
         display:flex;
     }
+    h1{
+        font-size:1.8em;
+    }
+
+    /* ==== Sections ==== */
     header{
         width:35vw;
         height:100vh;
     }
     #content{
         width:65vw;
-        padding-right:10vw;
     }
+
+    /* ==== Form Layout ==== */
     #inputs{
         flex-wrap:wrap;
         flex-direction:row;
