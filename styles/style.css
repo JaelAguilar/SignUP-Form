@@ -56,8 +56,45 @@ header{
     width:100%;
 }
 
-/* Layout for smaller screens in width */
+
+/* Botón 31 de https://getcssscan.com/css-buttons-examples */
+.submit {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.submit:hover,
+.submit:focus {
+  opacity: .75;
+}
+
+
+/* Layout for bigger screens in width */
 @media only screen and (min-width:850px){
+    /* ==== General Rules ==== */
     body{
         display:flex;
     }
@@ -94,4 +131,8 @@ header{
         width:100%;
         margin-top: 5px;
     }
+    .submit {
+    padding: 0.25em 0.75em;
+    width:fit-content;
+  }
 }
