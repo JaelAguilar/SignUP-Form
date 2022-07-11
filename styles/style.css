@@ -73,7 +73,7 @@ header{
   margin: 0;
   max-width: none;
   min-height: 44px;
-  min-width: 10px;
+  min-width: 85%;
   outline: none;
   overflow: hidden;
   padding: 9px 20px 8px;
@@ -91,6 +91,9 @@ header{
   opacity: .75;
 }
 
+.sendForm{
+    margin: 0 6vw;
+}
 
 /* Layout for bigger screens in width */
 @media only screen and (min-width:850px){
@@ -132,7 +135,8 @@ header{
         margin-top: 5px;
     }
     .submit {
-    padding: 0.25em 0.75em;
-    width:fit-content;
+        padding: 0.25em 0.75em;
+        width:fit-content;
+        min-width:0;
   }
 }
