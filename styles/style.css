@@ -27,7 +27,7 @@ header{
 }
 
 #formContainer{
-    box-shadow:0 10px 20px gray;
+    box-shadow:0 20px 30px -10px lightgray, 0 -8px 40px -35px rgb(118, 117, 117);
     padding:0 6vw;
 }
 
