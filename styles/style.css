@@ -61,6 +61,7 @@ header{
     width:100%;
 }
 
+/* ==== Form design ==== */
 
 /* Botón 31 de https://getcssscan.com/css-buttons-examples */
 .submit {
@@ -97,8 +98,21 @@ header{
   opacity: .75;
 }
 
+input {
+    box-shadow: inset 1px 1px 3px #ccc;
+    border-radius: 3px;
+    border-color: lightgray;
+    padding:.5em;
+}
+
+
+input:focus-visible{
+    outline:none;
+    border:1px solid lightblue;
+}
 
 /* Layout for bigger screens in width */
+
 @media only screen and (min-width:850px){
     /* ==== General Rules ==== */
     body{
