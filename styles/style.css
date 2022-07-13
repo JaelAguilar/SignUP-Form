@@ -42,6 +42,9 @@ header img{
 .sendForm{
     margin: 0 6vw;
 }
+    .sendForm p{
+        margin-bottom:40px;
+    }
 
 
 /* ==== Form Layout ==== */
